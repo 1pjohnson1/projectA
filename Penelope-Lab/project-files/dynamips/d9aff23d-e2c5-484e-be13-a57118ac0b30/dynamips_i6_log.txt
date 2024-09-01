@@ -1,0 +1,65 @@
+Jul 15 12:09:55.241 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jul 15 12:09:55.242 HYPERVISOR: Started on IP = localhost, TCP port = 62037.
+Jul 15 12:09:55.919 HYPERVISOR: exec_cmd: hypervisor version 
+Jul 15 12:09:55.920 HYPERVISOR: exec_cmd: hypervisor working_dir D:\upwork\Penelope-Lab-VM\Penelope-Lab\project-files\dynamips 
+Jul 15 12:09:55.920 GENERAL: working_dir=D:\upwork\Penelope-Lab-VM\Penelope-Lab\project-files\dynamips
+Jul 15 12:09:55.920 HYPERVISOR: exec_cmd: hypervisor working_dir D:\upwork\Penelope-Lab-VM\Penelope-Lab\project-files\dynamips\6174fce4-3d26-4742-830c-0fddfa18b125 
+Jul 15 12:09:55.920 GENERAL: working_dir=D:\upwork\Penelope-Lab-VM\Penelope-Lab\project-files\dynamips\6174fce4-3d26-4742-830c-0fddfa18b125
+Jul 15 12:09:55.920 HYPERVISOR: exec_cmd: vm create R4 4 c7200 
+Jul 15 12:09:55.921 VM: VM R4 created.
+Jul 15 12:09:55.921 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5003 
+Jul 15 12:09:55.921 HYPERVISOR: exec_cmd: c7200 get_mac_addr R4 
+Jul 15 12:09:55.922 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 15 12:09:55.922 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 0 C7200-IO-FE 
+Jul 15 12:09:55.922 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/MONOWAR/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Jul 15 12:09:55.923 HYPERVISOR: exec_cmd: vm set_exec_area R4 64 
+Jul 15 12:09:55.923 HYPERVISOR: exec_cmd: vm set_nvram R4 512 
+Jul 15 12:09:55.923 HYPERVISOR: exec_cmd: vm set_disk0 R4 0 
+Jul 15 12:09:55.924 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 15 12:09:55.924 HYPERVISOR: exec_cmd: vm slot_remove_binding R4 0 0 
+Jul 15 12:09:55.924 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 15 12:09:55.924 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 0 C7200-IO-2FE 
+Jul 15 12:09:55.925 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 15 12:09:55.925 HYPERVISOR: exec_cmd: vm slot_add_binding R4 1 0 PA-2FE-TX 
+Jul 15 12:09:55.925 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 15 12:09:55.925 HYPERVISOR: exec_cmd: vm slot_add_binding R4 2 0 PA-2FE-TX 
+Jul 15 12:09:55.926 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 15 12:09:55.926 HYPERVISOR: exec_cmd: vm slot_add_binding R4 3 0 PA-2FE-TX 
+Jul 15 12:09:55.986 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/MONOWAR/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Jul 15 12:10:00.646 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/MONOWAR/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Jul 15 12:10:10.182 HYPERVISOR: exec_cmd: nio create_udp udp-727efa3b-2a0c-4cfd-aa1b-8fec68b9931a 10031 127.0.0.1 10032 
+Jul 15 12:10:10.451 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 0 udp-727efa3b-2a0c-4cfd-aa1b-8fec68b9931a 
+Jul 15 12:10:10.451 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 15 12:10:26.230 HYPERVISOR: exec_cmd: nio create_udp udp-75b1c48c-e88c-44a1-a4bd-f06b281db5f8 10034 127.0.0.1 10035 
+Jul 15 12:10:26.231 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 1 udp-75b1c48c-e88c-44a1-a4bd-f06b281db5f8 
+Jul 15 12:10:26.232 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 15 12:10:33.161 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 15 12:10:33.162 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R4 0 1 
+Jul 15 12:10:33.162 HYPERVISOR: exec_cmd: nio delete udp-75b1c48c-e88c-44a1-a4bd-f06b281db5f8 
+Jul 15 12:10:39.324 HYPERVISOR: exec_cmd: nio create_udp udp-6c1e1f70-c125-4049-8ac5-0b45f4df6b48 10034 127.0.0.1 10035 
+Jul 15 12:10:39.326 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 1 udp-6c1e1f70-c125-4049-8ac5-0b45f4df6b48 
+Jul 15 12:10:39.327 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 15 12:10:50.263 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/MONOWAR/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Jul 15 12:22:11.492 HYPERVISOR: exec_cmd: vm set_ghost_status R4 2 
+Jul 15 12:22:11.493 HYPERVISOR: exec_cmd: vm set_ghost_file R4 D:\upwork\Penelope-Lab-VM\Penelope-Lab\project-files\dynamips\c7200-adventerprisek9-mz.152-4.M7.image-256.ghost 
+Jul 15 12:22:11.494 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 15 12:22:11.497 HYPERVISOR: exec_cmd: vm set_config R4 configs\i4_startup-config.cfg 
+Jul 15 12:22:11.498 HYPERVISOR: exec_cmd: vm start R4 
+Jul 15 12:22:41.812 HYPERVISOR: exec_cmd: vm extract_config R4 
+Jul 15 12:23:59.723 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 15 12:23:59.723 HYPERVISOR: exec_cmd: vm slot_disable_nio R4 0 0 
+Jul 15 12:23:59.724 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R4 0 0 
+Jul 15 12:23:59.725 HYPERVISOR: exec_cmd: nio delete udp-727efa3b-2a0c-4cfd-aa1b-8fec68b9931a 
+Jul 15 12:24:00.039 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 15 12:24:00.039 HYPERVISOR: exec_cmd: vm slot_disable_nio R4 0 1 
+Jul 15 12:24:00.060 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R4 0 1 
+Jul 15 12:24:00.060 HYPERVISOR: exec_cmd: nio delete udp-6c1e1f70-c125-4049-8ac5-0b45f4df6b48 
+Jul 15 12:24:00.467 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 15 12:24:00.467 HYPERVISOR: exec_cmd: vm stop R4 
+Jul 15 12:24:00.502 VM: VM R4 shutdown.
+Jul 15 12:24:00.503 HYPERVISOR: exec_cmd: vm extract_config R4 
+Jul 15 12:24:00.504 HYPERVISOR: exec_cmd: vm delete R4 
+Jul 15 12:24:00.504 VM: VM R4 destroyed.
+Jul 15 12:24:00.505 HYPERVISOR: exec_cmd: hypervisor stop 
+Jul 15 12:24:00.767 HYPERVISOR: Stopped.
+Jul 15 12:24:00.767 GENERAL: reset done.

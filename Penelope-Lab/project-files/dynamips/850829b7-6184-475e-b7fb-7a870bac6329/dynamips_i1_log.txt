@@ -1,0 +1,26 @@
+Jul 15 10:19:26.383 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jul 15 10:19:26.384 HYPERVISOR: Started on IP = localhost, TCP port = 53602.
+Jul 15 10:19:26.638 HYPERVISOR: exec_cmd: hypervisor version 
+Jul 15 10:19:26.639 HYPERVISOR: exec_cmd: hypervisor working_dir D:\upwork\Penelope-Lab-VM\Penelope-Lab\project-files\dynamips 
+Jul 15 10:19:26.642 GENERAL: working_dir=D:\upwork\Penelope-Lab-VM\Penelope-Lab\project-files\dynamips
+Jul 15 10:19:26.642 HYPERVISOR: exec_cmd: hypervisor working_dir D:\upwork\Penelope-Lab-VM\Penelope-Lab\project-files\dynamips\eef8e4bf-1cd4-4000-8b92-01c62d764386 
+Jul 15 10:19:26.642 GENERAL: working_dir=D:\upwork\Penelope-Lab-VM\Penelope-Lab\project-files\dynamips\eef8e4bf-1cd4-4000-8b92-01c62d764386
+Jul 15 10:19:26.642 HYPERVISOR: exec_cmd: vm create R1 1 c3745 
+Jul 15 10:19:26.643 VM: VM R1 created.
+Jul 15 10:19:26.644 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Jul 15 10:19:26.644 HYPERVISOR: exec_cmd: c3745 get_mac_addr R1 
+Jul 15 10:19:26.645 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/MONOWAR/GNS3/images/IOS/c3745-adventerprisek9-mz.124-15.T14.image 
+Jul 15 10:19:26.645 HYPERVISOR: exec_cmd: vm get_status R1 
+Jul 15 10:19:26.645 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x602701e4 
+Jul 15 10:19:26.646 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Jul 15 10:19:26.646 HYPERVISOR: exec_cmd: vm set_ram R1 256 
+Jul 15 10:19:26.646 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Jul 15 10:19:26.647 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Jul 15 10:19:26.720 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/MONOWAR/GNS3/images/IOS/c3745-adventerprisek9-mz.124-15.T14.image 
+Jul 15 10:19:57.300 HYPERVISOR: exec_cmd: vm get_status R1 
+Jul 15 10:19:57.300 HYPERVISOR: exec_cmd: vm extract_config R1 
+Jul 15 10:19:57.301 HYPERVISOR: exec_cmd: vm delete R1 
+Jul 15 10:19:57.301 VM: VM R1 destroyed.
+Jul 15 10:19:57.301 HYPERVISOR: exec_cmd: hypervisor stop 
+Jul 15 10:19:57.542 HYPERVISOR: Stopped.
+Jul 15 10:19:57.542 GENERAL: reset done.
