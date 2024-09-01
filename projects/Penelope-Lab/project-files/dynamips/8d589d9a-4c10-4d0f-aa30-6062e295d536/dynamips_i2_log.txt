@@ -1,0 +1,35 @@
+Aug 13 11:04:13.532 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Aug 13 11:04:13.532 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 53607.
+Aug 13 11:04:13.536 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 13 11:04:13.536 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\PenelopeJohnson\GNS3\projects\project-files\dynamips 
+Aug 13 11:04:13.536 GENERAL: working_dir=C:\Users\PenelopeJohnson\GNS3\projects\project-files\dynamips
+Aug 13 11:04:13.537 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\PenelopeJohnson\GNS3\projects\project-files\dynamips\8d589d9a-4c10-4d0f-aa30-6062e295d536 
+Aug 13 11:04:13.537 GENERAL: working_dir=C:\Users\PenelopeJohnson\GNS3\projects\project-files\dynamips\8d589d9a-4c10-4d0f-aa30-6062e295d536
+Aug 13 11:04:13.537 HYPERVISOR: exec_cmd: vm create R2 2 c7200 
+Aug 13 11:04:13.539 VM: VM R2 created.
+Aug 13 11:04:13.539 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5001 
+Aug 13 11:04:13.539 HYPERVISOR: exec_cmd: c7200 get_mac_addr R2 
+Aug 13 11:04:13.540 HYPERVISOR: exec_cmd: vm get_status R2 
+Aug 13 11:04:13.540 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 C7200-IO-FE 
+Aug 13 11:04:13.540 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Aug 13 11:04:13.541 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+Aug 13 11:04:13.541 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/PenelopeJohnson/GNS3/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Aug 13 11:04:13.541 HYPERVISOR: exec_cmd: c7200 set_mac_addr R2 ca02.33a8.0000 
+Aug 13 11:04:13.543 HYPERVISOR: exec_cmd: vm set_nvram R2 512 
+Aug 13 11:04:13.543 HYPERVISOR: exec_cmd: vm get_status R2 
+Aug 13 11:04:13.543 HYPERVISOR: exec_cmd: vm slot_remove_binding R2 0 0 
+Aug 13 11:04:13.544 HYPERVISOR: exec_cmd: vm get_status R2 
+Aug 13 11:04:13.544 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 C7200-IO-2FE 
+Aug 13 11:04:13.544 HYPERVISOR: exec_cmd: vm get_status R2 
+Aug 13 11:04:13.544 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 PA-2FE-TX 
+Aug 13 11:04:13.545 HYPERVISOR: exec_cmd: vm get_status R2 
+Aug 13 11:04:13.545 HYPERVISOR: exec_cmd: vm slot_add_binding R2 2 0 PA-2FE-TX 
+Aug 13 11:04:13.545 HYPERVISOR: exec_cmd: vm get_status R2 
+Aug 13 11:04:13.545 HYPERVISOR: exec_cmd: vm slot_add_binding R2 3 0 PA-2FE-TX 
+Aug 13 11:37:06.171 HYPERVISOR: exec_cmd: vm get_status R2 
+Aug 13 11:37:06.172 HYPERVISOR: exec_cmd: vm extract_config R2 
+Aug 13 11:37:06.227 HYPERVISOR: exec_cmd: vm delete R2 
+Aug 13 11:37:06.227 VM: VM R2 destroyed.
+Aug 13 11:37:06.229 HYPERVISOR: exec_cmd: hypervisor stop 
+Aug 13 11:37:06.573 HYPERVISOR: Stopped.
+Aug 13 11:37:06.573 GENERAL: reset done.
