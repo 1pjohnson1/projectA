@@ -1,0 +1,54 @@
+Jul 15 12:33:53.611 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jul 15 12:33:53.612 HYPERVISOR: Started on IP = localhost, TCP port = 62188.
+Jul 15 12:33:54.161 HYPERVISOR: exec_cmd: hypervisor version 
+Jul 15 12:33:54.162 HYPERVISOR: exec_cmd: hypervisor working_dir D:\upwork\Penelope-Lab-VM\Penelope-Lab\project-files\dynamips 
+Jul 15 12:33:54.162 GENERAL: working_dir=D:\upwork\Penelope-Lab-VM\Penelope-Lab\project-files\dynamips
+Jul 15 12:33:54.162 HYPERVISOR: exec_cmd: hypervisor working_dir D:\upwork\Penelope-Lab-VM\Penelope-Lab\project-files\dynamips\3255217f-aafa-4b00-9ba4-cdb17c359aa2 
+Jul 15 12:33:54.162 GENERAL: working_dir=D:\upwork\Penelope-Lab-VM\Penelope-Lab\project-files\dynamips\3255217f-aafa-4b00-9ba4-cdb17c359aa2
+Jul 15 12:33:54.162 HYPERVISOR: exec_cmd: vm create R4 4 c7200 
+Jul 15 12:33:54.163 VM: VM R4 created.
+Jul 15 12:33:54.163 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5003 
+Jul 15 12:33:54.163 HYPERVISOR: exec_cmd: c7200 get_mac_addr R4 
+Jul 15 12:33:54.163 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 15 12:33:54.164 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 0 C7200-IO-FE 
+Jul 15 12:33:54.164 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/MONOWAR/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Jul 15 12:33:54.165 HYPERVISOR: exec_cmd: vm set_exec_area R4 64 
+Jul 15 12:33:54.165 HYPERVISOR: exec_cmd: vm set_nvram R4 512 
+Jul 15 12:33:54.165 HYPERVISOR: exec_cmd: vm set_disk0 R4 0 
+Jul 15 12:33:54.166 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 15 12:33:54.166 HYPERVISOR: exec_cmd: vm slot_remove_binding R4 0 0 
+Jul 15 12:33:54.166 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 15 12:33:54.166 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 0 C7200-IO-2FE 
+Jul 15 12:33:54.167 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 15 12:33:54.167 HYPERVISOR: exec_cmd: vm slot_add_binding R4 1 0 PA-2FE-TX 
+Jul 15 12:33:54.167 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 15 12:33:54.167 HYPERVISOR: exec_cmd: vm slot_add_binding R4 2 0 PA-2FE-TX 
+Jul 15 12:33:54.167 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 15 12:33:54.168 HYPERVISOR: exec_cmd: vm slot_add_binding R4 3 0 PA-2FE-TX 
+Jul 15 12:33:54.239 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/MONOWAR/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Jul 15 12:33:59.175 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/MONOWAR/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Jul 15 12:34:37.881 HYPERVISOR: exec_cmd: nio create_udp udp-97434e46-b558-4f6d-a56a-e0a8cc6554fe 10032 127.0.0.1 10033 
+Jul 15 12:34:38.165 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 0 udp-97434e46-b558-4f6d-a56a-e0a8cc6554fe 
+Jul 15 12:34:38.165 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 15 12:34:48.621 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 15 12:34:48.621 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R4 0 0 
+Jul 15 12:34:48.622 HYPERVISOR: exec_cmd: nio delete udp-97434e46-b558-4f6d-a56a-e0a8cc6554fe 
+Jul 15 12:35:10.311 HYPERVISOR: exec_cmd: nio create_udp udp-0e8e9a5a-2acd-4a5f-95ec-387b1902c3a1 10032 127.0.0.1 10033 
+Jul 15 12:35:10.313 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 3 0 udp-0e8e9a5a-2acd-4a5f-95ec-387b1902c3a1 
+Jul 15 12:35:10.313 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 15 12:35:24.251 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/MONOWAR/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M7.image 
+Jul 15 12:37:09.127 HYPERVISOR: exec_cmd: vm set_ghost_status R4 2 
+Jul 15 12:37:09.128 HYPERVISOR: exec_cmd: vm set_ghost_file R4 D:\upwork\Penelope-Lab-VM\Penelope-Lab\project-files\dynamips\c7200-adventerprisek9-mz.152-4.M7.image-256.ghost 
+Jul 15 12:37:09.128 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 15 12:37:09.131 HYPERVISOR: exec_cmd: vm set_config R4 configs\i4_startup-config.cfg 
+Jul 15 12:37:09.131 HYPERVISOR: exec_cmd: vm start R4 
+Jul 15 12:37:39.462 HYPERVISOR: exec_cmd: vm extract_config R4 
+Jul 15 12:38:39.459 HYPERVISOR: exec_cmd: vm extract_config R4 
+Jul 15 13:08:22.320 HYPERVISOR: exec_cmd: nio create_udp udp-a3c27561-dff7-4ace-bcef-a1e3c3f25e74 10040 127.0.0.1 10041 
+Jul 15 13:08:22.322 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 0 udp-a3c27561-dff7-4ace-bcef-a1e3c3f25e74 
+Jul 15 13:08:22.323 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 15 13:08:22.323 HYPERVISOR: exec_cmd: vm slot_enable_nio R4 0 0 
+Jul 15 13:22:13.300 HYPERVISOR: exec_cmd: nio create_udp udp-a678d3a9-1290-4d06-ad92-e68f377d8cd3 10056 127.0.0.1 10057 
+Jul 15 13:22:13.303 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 3 1 udp-a678d3a9-1290-4d06-ad92-e68f377d8cd3 
+Jul 15 13:22:13.303 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 15 13:22:13.303 HYPERVISOR: exec_cmd: vm slot_enable_nio R4 3 1 
